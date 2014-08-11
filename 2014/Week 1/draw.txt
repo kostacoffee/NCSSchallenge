@@ -1,0 +1,8 @@
+Germany,1
+England,26
+Argentina,2
+Chile,9
+Kosta,4
+Netherlands,7
+Leben,20
+Rica,8
