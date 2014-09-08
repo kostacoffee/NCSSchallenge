@@ -1,6 +1,6 @@
 names = ['young', 'wise', 'brave']
 for i in range(3):
-  names[i] += " " + input()
+    names[i] += " " + input()
 
 for i in range(3):
-  print("Hello, " + names[i])
+    print("Hello, " + names[i])

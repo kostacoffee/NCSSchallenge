@@ -11,7 +11,7 @@ def mountains(line, layers=[], currentLayer=-1, brackets=[]):
             currentLayer += 1
             for i in range(len(layers)):
                 if (i != currentLayer):
-                    layers[i]+=' '
+                    layers[i] += ' '
             if currentLayer >= len(layers):
                 layers.append('')
             layers[currentLayer] += c
@@ -21,7 +21,7 @@ def mountains(line, layers=[], currentLayer=-1, brackets=[]):
                 layers[currentLayer] += c
                 for i in range(len(layers)):
                     if (i != currentLayer):
-                        layers[i]+=' '
+                        layers[i] += ' '
                 currentLayer -= 1
         return mountains(line[1:], layers, currentLayer, brackets)
 
